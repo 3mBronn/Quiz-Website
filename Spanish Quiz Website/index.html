@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<html data-bs-theme="light">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="img/png" href="https://media.istockphoto.com/id/508516477/tr/foto%C4%9Fraf/spanish-flag.jpg?s=170667a&w=0&k=20&c=QdXTVN6Dijbx6sZziOH8nv6rtpm2pH20gZmwaun-ZzI=">
+</head>
+<body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Spanish Center</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="https://tr.linkedin.com/in/emre-ko%C5%9Far-68087a252">Contact me</a>
+          <!--<a href="#">Recap The Words</a>-->
+        </nav>
+      </header>
+
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Spanish Quiz</h1>
+            <div class="quiz-header">
+              <span class="header-score">Your Score : 0 /100</span>
+              <span><button id="revealButton" >Reveal Correct Answer</button></span>
+            </div>
+
+            <h2 class="question-text">How do you say dog in Spanish?</h2>
+
+            <div class="option-list">
+              <!--<div class="option">
+                <span>A. Gato</span>
+              </div>
+              <div class="option">
+                <span>B. Perro</span>
+              </div>
+              <div class="option">
+                <span>C. Gallina</span>
+              </div>
+              <div class="option">
+                <span>D. Conejo</span>
+              </div>
+              <div class="option">
+                <span>E. Pato</span>
+              </div> -->
+            </div>
+            
+
+
+            <div class="quiz-footer">
+              <span class="question-total">1 of 10 questions</span>
+              <button class="next-btn">Next</button>
+            </div>
+
+          </div>
+
+          <div class="result-box">
+            <h2>Quiz Result</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+
+              <span class="score-text">Your Score 0 out of 100</span>
+            </div>
+
+            <div class="buttons">
+              <button class="tryAgain-btn">Try again</button>
+              <button class="homePage-btn">Home Page</button>
+
+            </div>
+          </div>
+        </section>
+      
+        <section class="home">
+        <div class="home-content">
+          <h1>Quiz</h1>
+          <p>If you want to see how did you come so far in Spanish, then you are in the right place.</p>
+          <button class="start-btn">Start Quiz</button>
+        </div>
+      
+      </section>
+      
+      </div>
+    
+    </main>
+
+    <div class="quiz-info">
+      <h2>GUIDE</h2>
+      <span class="info">Purpose of this quiz is just having fun. This quiz does not determine your level of Spanish. Despite that fact, you can repeat some basic words in "<strong class="repeat">Recap The Words</strong>" section above the page. Enjoy!</span>
+        <div class="btn-group">
+        <button class="btn-info exit-btn">Exit Quiz</button>
+        <a href="#" class="btn-info continue-btn">Continue</a>  
+      </div>
+    </div>
+    
+
+
+    <script src="./index.js" ></script>
+    <script src="./questions.js"></script>
+</body>
+</html>
